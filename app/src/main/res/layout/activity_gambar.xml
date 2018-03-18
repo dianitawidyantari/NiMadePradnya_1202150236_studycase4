@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.widya.nimadepradnya_1202150236_studycase4.GambarActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textUri|textMultiLine"
+        android:hint="Masukkan url gambar yang akan dicari"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/buttoncari"
+        android:onClick="carigambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center" />
+</LinearLayout>
+</ScrollView>
+

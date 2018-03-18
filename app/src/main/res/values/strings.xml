@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NiMadePradnya_1202150236_studycase4</string>
+    <string-array name="nama_mahasiswa">
+        <item>Ana Andrea</item>
+        <item>Barry Bertha</item>
+        <item>Cindy Colin</item>
+        <item>Debby Don</item>
+        <item>Emily Earl</item>
+        <item>Fiona Fay</item>
+        <item>Grace Gert</item>
+        <item>Hanna Helene</item>
+        <item>Irma Ingrid</item>
+        <item>Jose Jerry</item>
+        <item>Karen Karl</item>
+        <item>Lisa Larry</item>
+        <item>Melissa Mindy</item>
+        <item>Nate Nadine</item>
+        <item>Otto Omar</item>
+        <item>Paula Patty</item>
+        <item>Rose Rene</item>
+    </string-array>
+</resources>
